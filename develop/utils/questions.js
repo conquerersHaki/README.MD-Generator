@@ -30,18 +30,10 @@ const questions = [
             name: 'usage',
             validate: (value) => {if(value){return true} else {return 'Please enter required info to continue.'}},
         },
-
-        {
-            type: 'input',
-            message: "Offer guidelines on how other developers can contribute to your project code.",
-            name: 'contributiion',
-            validate: (value) => {if(value){return true} else {return 'Please enter required info to continue.'}},
-        },
-
         
         {
             type: 'input',
-            message: "Explain any tests for your project and examples of how ot run them.",
+            message: "Explain any tests for your project and examples of how to run them.",
             name: 'tests',
             validate: (value) => {if(value){return true} else {return 'Please enter required info to continue.'}},
         },
