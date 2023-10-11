@@ -1,12 +1,10 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
+
     
-  # ${data.title}
+  # readme generator
   
-    ${data.description}
+    makes readmes
   
-    ${data.licenseBadge}
+    [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   
     
   ---
@@ -20,17 +18,17 @@ function generateMarkdown(data) {
   
 
   ## Installation:
-    ${data.installation}
+    install
     
   ---
 
   ## Usage
-    ${data.usage}
+    exhibit a
 
   ---
   
   ## License
-    License used for this project - ${data.license}
+    License used for this project - MIT License
     * For more information on license types, please reference this website
     for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
   
@@ -52,16 +50,13 @@ function generateMarkdown(data) {
   ---
   
   ## Tests:
-    ${data.tests}
+    run
   
   ---
   
   
   ## Contact:
-  * GitHub Username: [${data.username}](https://github.com/${data.username})
-  * GitHub Email: ${data.email}
+  * GitHub Username: [conquerersHaki](https://github.com/conquerersHaki)
+  * GitHub Email: skhdfhjsdf
     
-  `;
-}
-
-module.exports = generateMarkdown;
+  
