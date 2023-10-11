@@ -17,6 +17,7 @@ function generateMarkdown(data) {
   3. [License](#license)
   4. [Contribution](#contribution)
   5. [Tests](#tests)
+  6. [Contact](#contact)
   
 
   ## Installation:
@@ -57,7 +58,7 @@ function generateMarkdown(data) {
   ---
   
   
-  ## Contact Information:
+  ## Contact:
   * GitHub Username: ${data.username}
   * GitHub Email: ${data.email}
     
