@@ -20,7 +20,7 @@ async function init() {
 
     let readMeData = generateMarkdown(answers);
 
-    await writeFileAsync("created-README.md", readMeData);
+    await writeFileAsync("sample-README.md", readMeData);
   } catch (err) {
     throw err;
   }
