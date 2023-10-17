@@ -33,9 +33,9 @@ SO THAT can quickly create a professional README for a project
 
 ## Visuals:
 
-![screenshot 1](./develop/images/readmeSS1.jpg)
-![screenshot 2](./develop/images/readmeSS2.jpg)
-![screenshot 2](./develop/images/readmeSS3.jpg)
+![screenshot 1](./images/readmeSS1.jpg)
+![screenshot 2](./images/readmeSS2.jpg)
+![screenshot 2](./images/readmeSS3.jpg)
 
 YouTube walkthrough of this application:
 https://www.youtube.com/watch?v=PYcEGn0UhAELinks
